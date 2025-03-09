@@ -9,21 +9,24 @@ import { IoMdTv } from "react-icons/io";
 import { MdOutlineTabletMac } from "react-icons/md";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { PiShoppingCartFill } from "react-icons/pi";
+import { FiSearch } from "react-icons/fi";
 import { FaTimes } from "react-icons/fa";
+import { LuUserRound } from "react-icons/lu";
+import { PiShoppingCartLight } from "react-icons/pi";
 
 const Header = () => {
     return (
         <div className='Headerbody'>
             <header className='Headerbodyxx' >
                 <div className='Headerbodyxx1'>
-                    <span className='Headerbodyxx1i'>colorlib<p>.</p></span>  
+                    <span className='Headerbodyxx1i'>colorlib<p>.</p></span>
                     <span className='Headerbodyxx1ii'><p>+</p>  FlexKicks</span>
                 </div>
                 <div className='Headerbodyxx2'>
-                   <span  className='iconsxx'> <IoMdTv /></span>
-                    <span  className='iconsxx'><MdOutlineTabletMac /></span>
-                    <span  className='iconsxx'><IoIosPhonePortrait  /></span>
-                   <span className='icons1xx'> <PiShoppingCartFill /></span>
+                    <span className='iconsxx'> <IoMdTv /></span>
+                    <span className='iconsxx'><MdOutlineTabletMac /></span>
+                    <span className='iconsxx'><IoIosPhonePortrait /></span>
+                    <span className='icons1xx'> <PiShoppingCartFill /></span>
                     <span className='iconsxx' ><FaTimes /> </span>
                 </div>
             </header>
@@ -47,7 +50,30 @@ const Header = () => {
                 </article>
             </header>
             <header className='Headerbody2'>
+                <article className='Headerbody2i'>
+                    <span>
+                        <img src="src/assets/public/loder.png" alt="" />
+                    </span>
+                    <p>FlexKicks</p>
+                </article>
+                <article className='Headerbody2ii'>
+                    <span>Home</span>
+                    <span>Men</span>
+                    <span>Women</span>
+                    <span>Baby Collection</span>
+                    <span>Pages</span>
+                    <span>Blog</span>
+                    <span>Contact</span>
 
+                </article>
+                <article className='Headerbody2iii'>
+                    <FiSearch  className='headicons'/>
+                    <LuUserRound className='headicons'/>
+                    <PiShoppingCartLight className='headicons' />
+                </article>
+            </header>
+            <header className='Headerbody3'>
+                <span>Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <p>Shop Now</p></span>
             </header>
         </div>
     )
