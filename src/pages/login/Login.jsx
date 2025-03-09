@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
+import './Login .css'
 
 const Login = () => {
-  return (
-    <div className="login-container">
+    return (
+        <div className="login-container">
             <div className="login-box">
                 <h2>Login</h2>
                 <p>Enter Login details to get access</p>
@@ -26,7 +27,7 @@ const Login = () => {
                 </div>
                <div className="login-btn">
                <p>
-                    Don’t have an account? <a href="#" className="signup-link">Sign Up</a> here
+                    Don’t have an account? <a href="/SignUp" className="signup-link">Sign Up</a> here
                 </p>
                <button className="login-button">Login</button>
                
@@ -34,7 +35,7 @@ const Login = () => {
                
             </div>
         </div>
-  )
-}
+    );
+};
 
-export default Login
+export default Login;
