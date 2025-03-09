@@ -1,7 +1,7 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import './App.css'
-import Home from './pages/home/home'
+import Home from './pages/home/Home'
 import Menpage from './pages/menpage/Menpage'
 import Women from './pages/women/Women'
 import Baby from './pages/baby/Baby'
