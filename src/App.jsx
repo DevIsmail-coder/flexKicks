@@ -1,7 +1,6 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import './App.css'
-import Home from './pages/home/home'
 import Menpage from './pages/menpage/Menpage'
 import Women from './pages/women/Women'
 import Baby from './pages/baby/Baby'
@@ -20,7 +19,7 @@ function App() {
       {
         path: "/",
         element: <Home />
-      }
+      },
       {
         path: "/menpage",
         element: <Menpage />
