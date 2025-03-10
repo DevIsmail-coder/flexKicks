@@ -19,10 +19,6 @@ function App() {
     const routes = createBrowserRouter([
       {
         path: "/",
-        element: <Details />
-      },
-      {
-        path: "/home",
         element: <Home />
       },
       {
