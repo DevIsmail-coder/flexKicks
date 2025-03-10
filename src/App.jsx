@@ -11,7 +11,8 @@ import Checkout from './pages/checkout/Checkout'
 import Cart from './pages/cart/Cart'
 import Contact from './pages/contact/Contact'
 import Header from './pages/header/header'
-import Home from './pages/home/Home'
+import Home from './pages/home/home'
+
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
         element: <Details />
       },
       {
-        path: "/loginpage",
+        path: "/menpage",
         element: <Menpage />
       },
       {
@@ -50,7 +51,7 @@ function App() {
         element: <Signup />
       },
       {
-        path: "/chechout",
+        path: "/checkout",
         element: <Checkout />
       },
       {
