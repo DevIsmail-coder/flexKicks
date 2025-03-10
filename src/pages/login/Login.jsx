@@ -1,7 +1,9 @@
 import React from "react";
 import './login.css'
+import { useNavigate } from "react-router";
 
 const Login = () => {
+  const navigate = useNavigate()
     return (
         <div className="login-container">
             <div className="login-box">
@@ -27,7 +29,7 @@ const Login = () => {
                 </div>
                <div className="login-btn">
                <p>
-                    Don’t have an account? <a href="/SignUp" className="signup-link">Sign Up</a> here
+                    Don’t have an account? <span className="signup-link" onClick={() => navigate("/signuppage")}>Sign Up</span> here
                 </p>
                <button className="login-button">Login</button>
                
