@@ -74,17 +74,17 @@ const Menpage = () => {
     ];
 
     return (
-        <div className='Menpagebody'>
+        <div className='MenpageBody'>
             <Header />
-            <article className='Menpageheader'>
+            <article className='MenpageHeader'>
                 <h2>Category</h2>
                 <span>
-                    <p1>Home</p1>
+                    <p>Home</p>
                     <p>Category</p>
                 </span>
             </article>
-            <main className='Menpagemain'>
-                <article className='Menpagemaindiv1'></article>
+            <main className='MenpageMain'>
+                <article className='Menpagemaindiv1'>fnkfnkf</article>
                 <article className='Menpagemaindiv2'>
                     <div className="Menpagemaindiv2container">
                         {
@@ -108,7 +108,7 @@ const Menpage = () => {
                                         </div>
                                     </div>
                                     <h4>{i.title}</h4>
-                                    <div className="price">
+                                    <div className="amount">
                                         <p>{i.price}</p>
                                         <p>{i.previous_price}</p>
                                     </div>

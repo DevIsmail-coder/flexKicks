@@ -10,7 +10,7 @@
     width: 100%;
     height: 58px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     background-color: #333333;
 }
@@ -124,7 +124,7 @@ color: #77CC6D;
     font-size: 13px;
     /* background-color: orange; */
 
-     & p{
+     & .Headerbody2ptag{
        width: 30%;
        height: 27px;
        display: flex;

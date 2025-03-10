@@ -81,7 +81,7 @@ return (
         <article className='Menpageheader'>
             <h2>Category</h2>
             <span>
-                <p1>Home</p1>
+                <p>Home</p>
                 <p>Category</p>
             </span>
         </article>

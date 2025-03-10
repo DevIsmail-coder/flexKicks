@@ -34,14 +34,14 @@ const Header = () => {
             </header>
             <header className='Headerbody1'>
                 <article className='Headerbody1container1'>
-                    <p>About Us</p>
+                    <p >About Us</p>
                     <p> Privacy</p>
                     <p>FAQ</p>
                     <p>Careers</p>
                 </article>
                 <article className='Headerbody1container2'>
-                    <p>My Wishlist</p>
-                    <p> Track Your Order</p>
+                    <p className='Headerbody2ptag'>My Wishlist</p>
+                    <p className='Headerbody2ptag'> Track Your Order</p>
                     <span className='Headerbody1container2span'>
                         <FaFacebook />
                         <FaInstagram />
