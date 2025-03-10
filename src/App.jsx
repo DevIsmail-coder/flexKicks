@@ -10,8 +10,7 @@ import Signup from './pages/signup/Signup'
 import Checkout from './pages/checkout/Checkout'
 import Cart from './pages/cart/Cart'
 import Contact from './pages/contact/Contact'
-import Home from './pages/home/home'
-
+// import Header from './pages/header/header'
 
 
 function App() {
