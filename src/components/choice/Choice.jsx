@@ -5,6 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./choice.css";
+import { TfiShoppingCart } from "react-icons/tfi";
+import { IoMdHeartEmpty } from "react-icons/io";
+import { BiSearch } from "react-icons/bi";
 
 // Sample Product Data
 const products = [
@@ -57,8 +60,21 @@ const Choice = () => {
       >
         {products.map((product) => (
           <SwiperSlide key={product.id} className="product_card">
-            <div className="product-img">
+            <div className="product_img">
                 <img src={product.image} alt="" />
+                <div className="card_actions">
+                    <div className="shop_action">
+                        <div className="t_icons">
+                            <TfiShoppingCart/>
+                        </div>
+                        <div className="t_icons">
+                            <IoMdHeartEmpty />
+                         </div>
+                        <div className="t_icons">
+                            <BiSearch />
+                        </div>
+                    </div>
+                 </div>
             </div>
             <h4 className="product-name">{product.name}</h4>
             <p className="product-price">
