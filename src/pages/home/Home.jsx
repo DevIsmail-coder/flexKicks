@@ -5,6 +5,9 @@ import Category_card from '../../components/category_card/Category_card'
 import Trending from '../../components/tending/Trending'
 import Testimony from '../../components/testimony/Testimony'
 import Choice from '../../components/choice/Choice'
+import News from '../../components/news/News'
+import Assure from '../../components/assure/Assure'
+import Footer from '../footer/Footer'
 
 const Home = () => {
     
@@ -16,6 +19,9 @@ const Home = () => {
      <Trending  />
      <Testimony />
      <Choice />
+     <News />
+     <Assure />
+     <Footer />
     </div>
   )
 }
