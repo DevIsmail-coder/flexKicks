@@ -38,7 +38,7 @@ function App() {
         element: <Details />
       },
       {
-        path: "/loginpage",
+        path: "/menpage",
         element: <Menpage />
       },
       {
