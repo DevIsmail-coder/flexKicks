@@ -76,52 +76,53 @@ const Women = () => {
 ];
 
 return (
-    <div className='Menpagebody'>
-        <Header />
-        <article className='Menpageheader'>
-            <h2>Category</h2>
-            <span>
-                <p>Home</p>
-                <p>Category</p>
-            </span>
-        </article>
-        <main className='Menpagemain'>
-            <article className='Menpagemaindiv1'></article>
-            <article className='Menpagemaindiv2'>
-                <div className="Menpagemaindiv2container">
-                    {
-                        Menproducts.map((i) => (
-                            <div className="Menpagemaindiv2containerii" key={i.id}>
-                                <div className="Menimgholder">
-                                    <img src={i.img} alt="" />
+  <div className='MenpageBody'>
+  <Header />
+  <article className='MenpageHeader'>
+      <h2>Category</h2>
+      <span>
+          <p>Home</p>
+          <p>Category</p>
+      </span>
+  </article>
+  <main className='MenpageMain'>
+      <article className='Menpagemaindiv1'>fnkfnkf</article>
+      <article className='Menpagemaindiv2'>
+          <div className="Menpagemaindiv2container">
+              {
+                  Menproducts.map((i) => (
+                      <div className="Menpagemaindiv2containerii" key={i.id}>
+                          <div className="Menimgholder">
+                              <img src={i.img} alt="" />
 
-                                    <div className="menaction">
-                                        <div className="menactioni">
-                                            <div className="menactionixx">
-                                                <TfiShoppingCart className='menicons'/>
-                                            </div>
-                                            <div className="menactionixx">
-                                                <IoMdHeartEmpty />
-                                            </div>
-                                            <div className="menactionixx">
-                                                <BiSearch />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h4>{i.title}</h4>
-                                <div className="price">
-                                    <p>{i.price}</p>
-                                    <p>{i.previous_price}</p>
-                                </div>
-                            </div>
-                        ))
-                    }
-                </div>
-            </article>
-        </main>
-    </div>
+                              <div className="menaction">
+                                  <div className="menactioni">
+                                      <div className="menactionixx">
+                                          <TfiShoppingCart className='menicons'/>
+                                      </div>
+                                      <div className="menactionixx">
+                                          <IoMdHeartEmpty />
+                                      </div>
+                                      <div className="menactionixx">
+                                          <BiSearch />
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <h4>{i.title}</h4>
+                          <div className="amount">
+                              <p>{i.price}</p>
+                              <p>{i.previous_price}</p>
+                          </div>
+                      </div>
+                  ))
+              }
+          </div>
+      </article>
+  </main>
+</div>
 )
 }
+
 
 export default Women
