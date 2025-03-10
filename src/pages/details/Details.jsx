@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Details.css";
+import "./details.css";
 import { MdOutlineStarHalf, MdOutlineStar } from "react-icons/md";
 import { FaShareAlt } from "react-icons/fa"; 
 
