@@ -50,7 +50,7 @@ function App() {
         element: <Signup />
       },
       {
-        path: "/chechout",
+        path: "/checkout",
         element: <Checkout />
       },
       {
