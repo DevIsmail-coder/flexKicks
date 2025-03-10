@@ -75,7 +75,6 @@ const Baby = () => {
 
 return (
     <div className='Menpagebody'>
-        <Header />
         <article className='Menpageheader'>
             <h2>Category</h2>
             <span>
