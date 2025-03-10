@@ -2,7 +2,6 @@ import React from 'react'
 import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import Header from '../header/header'
 import "./women.css"
 
 const Women = () => {

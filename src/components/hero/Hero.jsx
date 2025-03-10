@@ -71,7 +71,7 @@ const Hero = () => {
   }, [isAutoPlaying])
 
   const handleMouseEnter = () => {
-    setIsAutoPlaying(false)
+    setIsAutoPlaying(true)
   }
 
   const handleMouseLeave = () => {
@@ -83,14 +83,14 @@ const Hero = () => {
   return (
     <div className="hero_body">
       <div className="h_hero">
-        <div className="hero_slider"  style={{backgroundColor: currentSlide? "#DEF3F4": "#FEF8F8"}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
+        <div className="hero_slider"  style={{backgroundColor: currentSlide? "#DEF3F4": "#FFFBFB"}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
         >
-          <button className="nav-button prev" onClick={prevSlide}>
+          {/* <button className="nav-button prev" onClick={prevSlide}>
             <BiChevronLeft className="nav-icon" />
           </button>
           <button className="nav-button next" onClick={nextSlide}>
             <BiChevronRight className="nav-icon" />
-          </button>
+          </button> */}
           <div className="slider-content-fade">
             <div className={`slide ${fadeState} ${currentLayout}`}>
               <div className="image-container">
