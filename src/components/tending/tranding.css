@@ -91,10 +91,7 @@
 }
 
 
-.price{
-    display: flex;
-    gap: 20px;
-}
+
 
 .trending_card h4{
     font-size: 20px;
