@@ -13,8 +13,10 @@ import { FiSearch } from "react-icons/fi";
 import { FaTimes } from "react-icons/fa";
 import { LuUserRound } from "react-icons/lu";
 import { PiShoppingCartLight } from "react-icons/pi";
+import { useNavigate } from 'react-router';
 
 const Header = () => {
+   const  navigate = useNavigate()
     return (
         <div className='Headerbody'>
             <header className='Headerbodyxx' >
@@ -57,19 +59,19 @@ const Header = () => {
                     <p>FlexKicks</p>
                 </article>
                 <article className='Headerbody2ii'>
-                    <span>Home</span>
-                    <span>Men</span>
-                    <span>Women</span>
-                    <span>Baby Collection</span>
-                    <span>Pages</span>
+                    <span onClick={() => navigate("/")} >Home</span>
+                    <span onClick={() => navigate("/menpage")}>Men</span>
+                    <span onClick={() => navigate("/womenpage")}>Women</span>
+                    <span onClick={() => navigate("/babypage")}>Baby Collection</span>
+                    <span >Pages</span>
                     <span>Blog</span>
-                    <span>Contact</span>
+                    <span onClick={() => navigate("/contact")}>Contact</span>
 
                 </article>
                 <article className='Headerbody2iii'>
                     <FiSearch  className='headicons'/>
-                    <LuUserRound className='headicons'/>
-                    <PiShoppingCartLight className='headicons' />
+                    <LuUserRound className='headicons'  onClick={() => navigate("/loginpage")}/>
+                    <PiShoppingCartLight className='headicons' onClick={() => navigate("/cart")} />
                 </article>
             </header>
             <header className='Headerbody3'>

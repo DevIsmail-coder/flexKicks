@@ -19,10 +19,6 @@ function App() {
     const routes = createBrowserRouter([
       {
         path: "/",
-        element: <Header />
-      },
-      {
-        path: "/home",
         element: <Home />
       },
       {
@@ -42,7 +38,7 @@ function App() {
         element: <Details />
       },
       {
-        path: "/loginpage",
+        path: "/menpage",
         element: <Menpage />
       },
       {
