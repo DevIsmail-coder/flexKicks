@@ -2,7 +2,7 @@ import React from 'react'
 import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import Header from '../header/Header'
+
 import "./women.css"
 
 const Women = () => {
@@ -77,11 +77,10 @@ const Women = () => {
 
 return (
     <div className='Menpagebody'>
-        <Header />
         <article className='Menpageheader'>
             <h2>Category</h2>
             <span>
-                <p1>Home</p1>
+                <p>Home</p>
                 <p>Category</p>
             </span>
         </article>
@@ -110,7 +109,7 @@ return (
                                     </div>
                                 </div>
                                 <h4>{i.title}</h4>
-                                <div className="price">
+                                <div className="pricetag">
                                     <p>{i.price}</p>
                                     <p>{i.previous_price}</p>
                                 </div>

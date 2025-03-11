@@ -9,6 +9,7 @@
 .trending_wrapper{
     width: 85%;
     height: 80%;
+    /* background-color: red; */
 }
 
 .t_wrapper_header{
@@ -20,7 +21,7 @@
 }
 
 .t_left{
-    width: 30%;
+    width: 25%;
     display: flex;
     align-items: center;
 }
@@ -90,7 +91,10 @@
 }
 
 
-
+.price{
+    display: flex;
+    gap: 20px;
+}
 
 .trending_card h4{
     font-size: 20px;

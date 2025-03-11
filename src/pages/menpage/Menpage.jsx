@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./menpage.css"
 import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import Header from '../header/Header'
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";import Header from '../header/header';
+``
+
 
 const Menpage = () => {
+
+    const [show, setShow] =  useState(null)
+
+    const showing = (key) => {
+        setShow(currentDiv => currentDiv === key ? null : key)
+    }
 
     const Menproducts = [
         {
@@ -79,12 +87,77 @@ const Menpage = () => {
             <article className='Menpageheader'>
                 <h2>Category</h2>
                 <span>
-                    <p1>Home</p1>
+                    <p>Home</p>
                     <p>Category</p>
                 </span>
+
             </article>
             <main className='Menpagemain'>
-                <article className='Menpagemaindiv1'></article>
+                <article className='Menpagemaindiv1'>
+                    <div className='Menpagemaindiv1i'>
+                        <span>Category <MdOutlineKeyboardArrowDown className= {`Menpagemaindiv1iicon ${show === "Category" ? "open" : ""}`} 
+                        onClick={() => showing("Category")}
+                        />
+                        
+                      {
+                        show === "Category" &&  (
+                            <div className='Menpagemaindiv1iiconyy'>
+                            <h3>Category</h3>
+                            <p className='Menpagemaindiv1iicon1p'>Category 1</p>
+                            <p className='Menpagemaindiv1iicon1p'>Category 2</p>
+                            <p className='Menpagemaindiv1iicon1p'>Category 3</p>
+                            <p className='Menpagemaindiv1iicon1p'>Category 4</p>
+                        </div>
+                        ) }
+                    
+                         </span>
+                        <span>Type  <MdOutlineKeyboardArrowDown className= {`Menpagemaindiv1iicon ${show === "Type" ? "open" : ""}` } 
+                        onClick={() => showing("Type")}
+                        />
+                        {
+                        show === "Type" &&  (
+                            <div className='Menpagemaindiv1iiconyy'>
+                            <h3>Type</h3>
+                            <p className='Menpagemaindiv1iicon1p'>Type 1</p>
+                            <p className='Menpagemaindiv1iicon1p'>Type 2</p>
+                            <p className='Menpagemaindiv1iicon1p'>Type 3</p>
+                            <p className='Menpagemaindiv1iicon1p'>Type 4</p>
+                        </div>
+                        )
+                      }
+                        </span>
+                        <span>Size  <MdOutlineKeyboardArrowDown className= {`Menpagemaindiv1iicon ${show === "Size" ? "open" : ""}`} 
+                        onClick={() => showing("Size")}
+                        />
+                        {
+                             show === "Size" && (
+                                <div className='Menpagemaindiv1iiconyy'>
+                                <h3>Size</h3>
+                                <p className='Menpagemaindiv1iicon1p'>Size 1</p>
+                                <p className='Menpagemaindiv1iicon1p'>Size 2</p>
+                                <p className='Menpagemaindiv1iicon1p'>Size 3</p>
+                                <p className='Menpagemaindiv1iicon1p'>Size 4</p>
+                            </div>
+                             )
+                        }
+                        </span>
+                        <span>Color  <MdOutlineKeyboardArrowDown className= {`Menpagemaindiv1iicon ${show === "Color" ? "open" : ""}`}
+                        onClick={() => showing("Color")}
+                        />
+                        {
+                             show === "Color" && 
+                                <div className='Menpagemaindiv1iiconyy'>
+                                <h3>Color</h3>
+                                <p className='Menpagemaindiv1iicon1p'>Color 1</p>
+                                <p className='Menpagemaindiv1iicon1p'>Color 2</p>
+                                <p className='Menpagemaindiv1iicon1p'>Color 3</p>
+                                <p className='Menpagemaindiv1iicon1p'>Color 4</p>
+                            </div>
+                             
+                        }
+                        </span>
+                    </div>
+                </article>
                 <article className='Menpagemaindiv2'>
                     <div className="Menpagemaindiv2container">
                         {
@@ -96,7 +169,7 @@ const Menpage = () => {
                                         <div className="menaction">
                                             <div className="menactioni">
                                                 <div className="menactionixx">
-                                                    <TfiShoppingCart className='menicons'/>
+                                                    <TfiShoppingCart className='menicons' />
                                                 </div>
                                                 <div className="menactionixx">
                                                     <IoMdHeartEmpty />
@@ -108,7 +181,7 @@ const Menpage = () => {
                                         </div>
                                     </div>
                                     <h4>{i.title}</h4>
-                                    <div className="price">
+                                    <div className="pricetag">
                                         <p>{i.price}</p>
                                         <p>{i.previous_price}</p>
                                     </div>
