@@ -19,7 +19,7 @@ const Header = () => {
    const  navigate = useNavigate()
     return (
         <div className='Headerbody'>
-            <header className='Headerbodyxx' >
+            {/* <header className='Headerbodyxx' >
                 <div className='Headerbodyxx1'>
                     <span className='Headerbodyxx1i'>colorlib<p>.</p></span>
                     <span className='Headerbodyxx1ii'><p>+</p>  FlexKicks</span>
@@ -31,7 +31,7 @@ const Header = () => {
                     <span className='icons1xx'> <PiShoppingCartFill /></span>
                     <span className='iconsxx' ><FaTimes /> </span>
                 </div>
-            </header>
+            </header> */}
             <header className='Headerbody1'>
                 <article className='Headerbody1container1'>
                     <p>About Us</p>

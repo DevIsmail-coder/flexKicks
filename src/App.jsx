@@ -10,8 +10,8 @@ import Signup from './pages/signup/Signup'
 import Checkout from './pages/checkout/Checkout'
 import Cart from './pages/cart/Cart'
 import Contact from './pages/contact/Contact'
-
 import Home from './pages/home/Home'
+import HomeLayout from './routes/HomeLayout'
 
 
 
@@ -21,48 +21,55 @@ function App() {
     const routes = createBrowserRouter([
       {
         path: "/",
-        element: <Home />
+        element: <HomeLayout />,
+        children:[
+          {
+            path: "/",
+            element: <Home />
+          },
+          {
+            path: "/menpage",
+            element: <Menpage />
+          },
+          {
+            path: "/womenpage",
+            element: <Women />
+          },
+          {
+            path: "/babypage",
+            element: <Baby/>
+          },
+          {
+            path: "/detailspage",
+            element: <Details />
+          },
+          {
+            path: "/menpage",
+            element: <Menpage />
+          },
+          {
+            path: "/loginpage",
+            element: <Login />
+          },
+          {
+            path: "/signuppage",
+            element: <Signup />
+          },
+          {
+            path: "/checkout",
+            element: <Checkout />
+          },
+          {
+            path: "/cart",
+            element: <Cart />
+          },
+          {
+            path: "/contact",
+            element: <Contact />
+          }
+        ]
       },
-      {
-        path: "/menpage",
-        element: <Menpage />
-      },
-      {
-        path: "/womenpage",
-        element: <Women />
-      },
-      {
-        path: "/babypage",
-        element: <Baby/>
-      },
-      {
-        path: "/detailspage",
-        element: <Details />
-      },
-      {
-        path: "/menpage",
-        element: <Menpage />
-      },
-      {
-        path: "/loginpage",
-        element: <Login />
-      },
-      {
-        path: "/signuppage",
-        element: <Signup />
-      },
-      {
-        path: "/checkout",
-        element: <Checkout />
-      },
-      {
-        path: "/cart",
-        element: <Cart />
-      },
-      {
-        path: "/contact",
-        element: <Contact />
-      }
+      
     ])
   return <div className='Appbody'>
     <RouterProvider router={routes} />

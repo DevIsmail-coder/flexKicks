@@ -74,7 +74,7 @@
   .slide-image {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
   }
   
   .content {
@@ -90,14 +90,13 @@
   .image-left .content {
     text-align: left;
     padding-left: 3rem;
-    background-color: #CDEAEE;
+    background-color: #DEF3F4;
   }
   
   .image-right .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding-right: 3rem;
     text-align: left;
     background-color: #FFFBFB;

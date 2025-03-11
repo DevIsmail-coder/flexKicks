@@ -2,7 +2,6 @@ import React from 'react'
 import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import Header from '../header/Header'
 import "./women.css"
 
 const Women = () => {
@@ -77,7 +76,6 @@ const Women = () => {
 
 return (
     <div className='Menpagebody'>
-        <Header />
         <article className='Menpageheader'>
             <h2>Category</h2>
             <span>

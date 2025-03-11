@@ -3,7 +3,6 @@ import "./menpage.css"
 import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import Header from '../header/Header'
 
 const Menpage = () => {
 
@@ -75,7 +74,6 @@ const Menpage = () => {
 
     return (
         <div className='Menpagebody'>
-            <Header />
             <article className='Menpageheader'>
                 <h2>Category</h2>
                 <span>
