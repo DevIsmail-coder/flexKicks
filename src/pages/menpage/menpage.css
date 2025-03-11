@@ -56,6 +56,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 30px;
     border: 2px solid #EDEFF2;
 }
 
@@ -239,5 +241,46 @@
     & p{
         font-size: 14px;
         color: #CEBD9C;
+    }
+}
+
+.Menpagemaindiv1h3{
+    width: 83%;
+    font-size: 14.5px;
+    /* background-color: blue; */
+}
+
+.Menpagemaindiv1xx{
+    width: 80%;
+    height: 65px;
+    background-color: yellow;
+}
+
+.Menpagemaindiv1xxx{
+    width: 80%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    /* background-color: blue; */
+
+    & h3{
+        width: 100%;
+        display: flex;
+        font-size: 14.5px;
+    }
+}
+
+.Menpagemaindiv1xxxdiv{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    /* background-color: green; */
+    flex-direction: column;
+
+    & p{
+        font-size: 15px;
+        color: #232F55;
     }
 }
