@@ -36,42 +36,42 @@ const Baby = () => {
     },
     {
         id: 4,
-        img: "//latest8.jpg",
+        img: "/latest8.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
     },
     {
         id: 5,
-        img: "//latest4.jpg",
+        img: "/latest4.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$98.00",
         oldPrice: "$120.00",
     },
     {
         id: 6,
-        img: "//latest1.jpg",
+        img: "/latest1.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
     },
     {
         id: 7,
-        img: "//latest2.jpg",
+        img: "/latest2.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
     },
     {
         id: 8,
-        img: "//latest3.jpg",
+        img: "/latest3.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
     },
     {
         id: 9,
-        img: "//latest4.jpg",
+        img: "/latest4.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
