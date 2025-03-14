@@ -17,63 +17,63 @@ const Menpage = () => {
     const Menproducts = [
         {
             id: 1,
-            img: "src/assets/public/latest5.jpg",
+            img: "/latest5.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 2,
-            img: "/src/assets/public/latest6.jpg",
+            img: "/latest6.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 3,
-            img: "/src/assets/public/latest7.jpg",
+            img: "/latest7.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 4,
-            img: "/src/assets/public/latest8.jpg",
+            img: "/latest8.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 5,
-            img: "/src/assets/public/latest4.jpg",
+            img: "/latest4.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$98.00",
             oldPrice: "$120.00",
         },
         {
             id: 6,
-            img: "/src/assets/public/latest1.jpg",
+            img: "/latest1.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 7,
-            img: "/src/assets/public/latest2.jpg",
+            img: "/latest2.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 8,
-            img: "/src/assets/public/latest3.jpg",
+            img: "/latest3.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
         },
         {
             id: 9,
-            img: "/src/assets/public/latest4.jpg",
+            img: "/latest4.jpg",
             title: "Cahsmere Sweater + Bag",
             price: "$200",
             previous_price: "$300"
