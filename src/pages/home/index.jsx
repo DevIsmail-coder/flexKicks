@@ -21,7 +21,6 @@ const Home = () => {
      <Choice />
      <News />
      <Assure />
-     <Footer />
     </div>
   )
 }
