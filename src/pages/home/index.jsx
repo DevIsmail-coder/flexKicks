@@ -7,7 +7,7 @@ import Testimony from '../../components/testimony/Testimony'
 import Choice from '../../components/choice/Choice'
 import News from '../../components/news/News'
 import Assure from '../../components/assure/Assure'
-import Footer from '../footer/Footer'
+import Footer from '../footer'
 
 const Home = () => {
     
@@ -21,7 +21,6 @@ const Home = () => {
      <Choice />
      <News />
      <Assure />
-     <Footer />
     </div>
   )
 }

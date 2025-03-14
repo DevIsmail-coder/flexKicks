@@ -1,17 +1,17 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import './App.css'
-import Menpage from './pages/menpage/Menpage'
-import Women from './pages/women/Women'
-import Baby from './pages/baby/Baby'
-import Details from './pages/details/Details'
-import Login from './pages/login/Login'
-import Signup from './pages/signup/Signup'
-import Checkout from './pages/checkout/Checkout'
-import Cart from './pages/cart/Cart'
-import Contact from './pages/contact/Contact'
-import Home from './pages/home/Home'
+import Menpage from './pages/menpage'
+import Women from './pages/women'
+import Baby from './pages/baby'
+import Details from './pages/details'
+import Login from './pages/login'
+import Signup from './pages/signup'
+import Checkout from './pages/checkout'
+import Cart from './pages/cart'
+import Contact from './pages/contact'
 import HomeLayout from './routes/HomeLayout'
+import Home from './pages/home'
 
 
 
@@ -48,14 +48,6 @@ function App() {
             element: <Menpage />
           },
           {
-            path: "/loginpage",
-            element: <Login />
-          },
-          {
-            path: "/signuppage",
-            element: <Signup />
-          },
-          {
             path: "/checkout",
             element: <Checkout />
           },
@@ -68,6 +60,16 @@ function App() {
             element: <Contact />
           }
         ]
+        
+      },
+      
+      {
+        path: "/loginpage",
+        element: <Login />
+      },
+      {
+        path: "/signuppage",
+        element: <Signup />
       },
       
     ])
