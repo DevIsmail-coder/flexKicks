@@ -4,8 +4,6 @@ import { TfiShoppingCart } from "react-icons/tfi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
- import Header from '../header/header';
-
 
 
 const Menpage = () => {
@@ -84,7 +82,6 @@ const Menpage = () => {
 
     return (
         <div className='Menpagebody'>
-            <Header />
             <article className='Menpageheader'>
                 <h2>Category</h2>
                 <span>
