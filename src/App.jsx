@@ -48,14 +48,6 @@ function App() {
             element: <Menpage />
           },
           {
-            path: "/loginpage",
-            element: <Login />
-          },
-          {
-            path: "/signuppage",
-            element: <Signup />
-          },
-          {
             path: "/checkout",
             element: <Checkout />
           },
@@ -68,6 +60,16 @@ function App() {
             element: <Contact />
           }
         ]
+        
+      },
+      
+      {
+        path: "/loginpage",
+        element: <Login />
+      },
+      {
+        path: "/signuppage",
+        element: <Signup />
       },
       
     ])

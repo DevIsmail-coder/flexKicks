@@ -1,6 +1,6 @@
 .cartBody {
     width: 100%;
-    height: auto; /* Allow content to overflow naturally */
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -72,17 +72,16 @@
 }
 
 .cartOrderpage{
-    width: 100%;
-    height: 130vh; 
+    height: 180vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E8EAED;
+
 }
 
 .cartorderBox {
     width: 85%;
-    height: 90%;
+    height: 100%;
    background-color: white;
     display: flex;
     flex-direction: column;
@@ -98,7 +97,7 @@
 
 }
 
-.descBoxp{
+.descBoxp1{
     width: 50%;
 
 }
@@ -119,7 +118,9 @@
 
 .propertyDiv{
     width: 100%;
+    height: 10%;
     display: flex;
+    align-items: center;
     border-bottom: 2px solid #EEEEEE;
 
 }
@@ -130,14 +131,12 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-color: aqua;
 
 }
 
 .propertyDivB{
     width: 25%;
     display: flex;
-    background-color: #74706B;
     justify-content: center;
 }
 
@@ -162,7 +161,6 @@
 
 .totalDiv{
     width: 10%;
-    background-color: aquamarine;
     display: flex;
     justify-content: flex-end;
 }
@@ -170,18 +168,27 @@
 
 .btnDivision{
  width: 100%;
- height: 10%;
+ height: 5%;
  display: flex;
- justify-content: space-around;
- align-items: center;
+ align-items:center ;
  border-bottom: 2px solid #EEEEEE;
 
 
 }
 
+.btnDivision1A{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+justify-content: space-between;
+padding-left: 85px;
+
+}
+
 .btnDivision1{
     width: 160px;
-    height: 40px;
+    height: 45px;
     background-color: red;
     color: white;
     font-size: 15px;
@@ -202,21 +209,106 @@
 
 .shipping{
     width: 100%;
-    height: 30%;
+    height: 50%;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 2px solid #EEEEEE;
-    gap: 110px;
+}
+
+.shipping1{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+     
+}
+
+.shippingDiv2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
     
+}
+
+
+.shipping2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btnDivision3{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
 
 
 }
 
-.shippingDiv2{
-    width: 30%;
-    background-color: aquamarine;
+.btnDivisionB{
+    width: 100%;
+    height: 5%;
     display: flex;
-    flex-direction: column;
-    
-    
+    align-items:center ;
+
+
+}
+
+.btnDivision1B{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+
+}
+
+.btnDivision1BA{
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.divisionDiv{
+width: 100%;
+height: 20%;
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 15px;
+border-bottom: 2px solid #EEEEEE;
+padding-bottom: 15px;
+
+
+}
+
+
+.stateDivision{
+  width: 350px;
+  height: 40px;
+  border: none; 
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: #F4F4F4;
+}
+
+.stateCode{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;  
+    background-color: #F4F4F4;
 }
