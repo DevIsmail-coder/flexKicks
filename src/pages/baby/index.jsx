@@ -29,7 +29,7 @@ const Baby = () => {
     },
     {
         id: 3,
-        img: "//latest7.jpg",
+        img: "/latest7.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
