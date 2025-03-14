@@ -30,7 +30,7 @@ const Women = () => {
     },
     {
         id: 3,
-        img: "src/assets/public/items2.jpg",
+        img: "/items2.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
@@ -72,7 +72,7 @@ const Women = () => {
     },
     {
         id: 9,
-        img: "src/assets/public/latest5.jpg",
+        img: "/latest5.jpg",
         title: "Cahsmere Sweater + Bag",
         price: "$200",
         previous_price: "$300"
